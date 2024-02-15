@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100%;
+	height: 700px;
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px) {
+	.header {
+		width: 100%;
+		min-height: 200px;
+	}
+}
+@media (min-width: 320px) and (max-width: 376px) {
+	.header {
+		background-color: green;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.header {
+		background-color: red;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.header {
+		background-color: yellow;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.header {
+		background-color: blue;
+	}
+}
+
+
+/*@media (min-width: 320px) and (max-width: 1024px) {
+	.content {
+		min-height: 300px;
+	}
+}
+@media (min-width: 320px) and (max-width: 376px) {
+	.content {
+		background-color: lime;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.content {
+		background-color: green;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.content {
+		background-color: red;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.content {
+		background-color: yellow;
+	}
+}
+*/
+
+@media (min-width: 320px) and (max-width: 376px) {
+	.sidebarl,.sidebarr {
+		width: 100px;
+		background-color: purple;
+		height: 300px;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.sidebarl,.sidebarr {
+		width: 120px;
+		background-color: grey;
+		height: 300px;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.sidebarl,.sidebarr {
+		width: 180px;
+		background-color: purple;
+		height: 300px;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.sidebarl,.sidebarr {
+		width: 240px;
+		background-color: gold;
+		height: 300px;
+	}
+}
+
+
+
+.sidebarl {
+	float: left;
+}
+.sidebarr {
+	float: right;
+}
+/*.content {
+	width: 100%;
+	height: 400px;
+	background-color: pink;
+	float: middle;
+}*/
+
+
+@media (min-width: 320px) and (max-width: 1024px) {
+	.content {
+		width: 100%;
+		min-height: 300px;
+	}
+}
+@media (min-width: 320px) and (max-width: 376px) {
+	.content {
+		background-color: yellow;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.content {
+		background-color: skyblue;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.content {
+		background-color: red;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.content {
+		background-color: purple;
+	}
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1024px) {
+	.footer {
+		width: 100%;
+		min-height: 200px;
+	}
+}
+@media (min-width: 320px) and (max-width: 376px) {
+	.footer {
+		background-color: green;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.footer {
+		background-color: red;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.footer {
+		background-color: yellow;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.footer {
+		background-color: blue;
+	}
+}
